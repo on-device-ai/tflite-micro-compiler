@@ -20,7 +20,7 @@ Build the "compiler"  steps are as follows:
 `cd tflite-micro-compiler/compiler/`  
 `make`  
 `cd -`  
-After the build is complete, compile the tflite model file to C++ code with the following command:
+After the build is complete, compile the tflite model file to C++ code with the following command:  
 `cd tflite-micro-compiler/models/`  
 `../compiler/compiler model.tflite hello_compiled.cpp hello_`  
 `cd -`  
